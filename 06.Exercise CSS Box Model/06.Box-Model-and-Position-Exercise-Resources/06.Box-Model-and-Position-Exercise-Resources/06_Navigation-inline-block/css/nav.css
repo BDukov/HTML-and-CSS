@@ -1,0 +1,17 @@
+.main-nav ul { 
+    padding: 0;
+}
+
+.main-nav li {
+    list-style: none outside;
+    position: relative;
+    display: inline-block;
+    margin: 0 0.2em;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: yellowgreen;
+}

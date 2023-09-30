@@ -1,0 +1,17 @@
+* { 
+    font-family: inherit;
+}
+
+html { 
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, input, textarea { 
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
