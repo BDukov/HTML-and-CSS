@@ -1,0 +1,41 @@
+
+.site {
+    margin: 2em 2em auto;
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+    max-width: 70%;
+    height: auto;
+    padding: 1em 1em;
+    float:left;
+}
+
+img { 
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+aside { 
+    display: inline-block;
+    max-width: 20%;
+    position: relative;
+    padding: 1em 1em;
+}
+
+article h2 {
+    margin-top: 1em;
+}
+
+article h1, h2 {
+    margin-bottom: 0.5em;
+}
+
+li { 
+    margin-left: 2em;
+}
+
+footer p {
+    margin-top: 1em;
+}
