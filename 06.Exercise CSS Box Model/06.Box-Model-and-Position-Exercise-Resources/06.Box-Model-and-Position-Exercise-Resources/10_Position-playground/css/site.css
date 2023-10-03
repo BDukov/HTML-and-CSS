@@ -1,0 +1,28 @@
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:nth-child(1){
+    background: linear-gradient(90deg, rgba(0,21,36,0.829656862745098) 30%, rgba(9,70,121,0.8744747899159664) 62%, rgba(0,255,171,1) 100%);
+}
+
+.viewport:nth-child(2){
+    background: linear-gradient(90deg, rgba(36,0,34,0.829656862745098) 0%, rgba(121,9,109,0.7512254901960784) 34%, rgba(255,171,0,0.8884803921568627) 100%);
+}
+
+.card {
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

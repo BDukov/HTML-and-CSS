@@ -1,0 +1,47 @@
+body {
+background-color: rgb(238, 238, 238) ;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255)  ;
+    width: 440px;
+    height: 480px;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1em;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+img { 
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+div:last-child{
+    padding: 1em 1em;
+    width: 100%;
+    position:absolute;
+    bottom: 8% ;
+
+}
+
+a {
+    padding: 0.5em;
+    border:2px solid green;
+    position:absolute;
+    right: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 153, 0) ;
+}
+
+ p {
+    margin-top: 0.5em;
+ }
