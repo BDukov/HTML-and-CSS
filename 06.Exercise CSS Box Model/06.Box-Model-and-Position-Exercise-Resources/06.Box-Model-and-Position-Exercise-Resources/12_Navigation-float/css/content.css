@@ -1,0 +1,31 @@
+main > article {
+    margin-bottom: 2em;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 1em;
+}
+
+article{
+    border: 1px solid orange;
+}
+
+article > section {
+    position: relative;
+    /* text-align: center; */
+}
+
+article > section > img {
+    position: absolute;
+    top: 0;
+    right:0;
+    float: right;
+
+}
+
+article > section > p {
+    text-align: justify;
+    overflow-wrap: normal;
+    border: 2px solid green;
+}
