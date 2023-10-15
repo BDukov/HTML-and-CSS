@@ -1,0 +1,53 @@
+.pricing-plans {
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+.plans {
+    padding: 1em 4em;
+    margin: 1em 1em;
+    background: yellow;
+    gap: 1em;
+    width: 20em;
+    height: 25em;
+    text-align: center;
+}
+
+#plan {
+    background: white;
+    text-align: left;
+}
+
+#free {
+    background: #ff7c4c;
+}
+
+#paid {
+    background: black;
+    color: white;
+}
+
+
+#free p:first-child, #paid p:first-child {
+    padding-top: 1em;
+}
+
+#free h3, #paid h3 {
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#free p, #paid p {
+    line-height: 2em;
+}
+
+.button-learn-more {
+    margin-top: 1em;
+    border: 2px solid black;
+    padding: 1em 2em;
+}

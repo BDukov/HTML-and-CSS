@@ -1,0 +1,38 @@
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+body > * {
+  background: #87cefa;
+  border: 2px solid lightskyblue;
+  border-radius: 0.3em;
+}
+
+header {
+  flex: 1 1 100%;
+}
+
+footer {
+  flex: 1 1 100%;
+}
+
+
+  aside {
+    flex: 1 1 70%;
+    flex-grow: 1;
+  }
+  main {
+    flex: 1 1 25%;
+  }
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+}

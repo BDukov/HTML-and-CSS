@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'Inter', serif;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* padding: 10em; */
+    margin: 4em 8em;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/background.jpg) ;
+    gap: 1.5em;
+}
+
+main {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+aside {
+    flex: 1 1 50%;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+aside > article {
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.quote {
+    font-size: 6em;
+}
+
+aside > article > .quote {
+    font-size: 8em;
+}
+
+article { 
+    background: #fff;
+    padding: 2em 4em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+img {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+main > article {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1 1 50%;
+    flex-grow: 2;
+}
+
+.left p {
+    width: 29em;
+}
+
+.rigth {
+    flex-grow: 1;
+}
+
+.rigth img {
+    display: block;
+    position: relative;
+    top: 15%;
+}
+
+.left h3 {
+    margin-top: 1em;
+}
+
+.card { 
+    display: flex;
+    border-top: 2px solid #CCC;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+aside > article > .quote {
+    padding-bottom: 0;
+    flex: -1 1 100%;
+    flex-grow: 1;
+}
+
+aside > article > p { 
+    flex: 1 1 100%;
+    flex-grow: 2;
+}
+
+aside > article > .card {
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+}
+
+.card img {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info {
+    padding-top: 2em;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+.info p {
+    font-size: 0.8em;
+}

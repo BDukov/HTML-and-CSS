@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 2em 4em;
+}
+
+main article {
+    /* background-color: aqua; */
+    padding: 1em 0;
+    display: flex;
+}
+
+.image {
+    /* background: yellow; */
+    width:550px;
+    height: auto;
+    overflow: hidden;
+    padding: 0 1em;
+}
+
+article {
+    display: flex;
+}
+
+.enterprice {
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+article h3 {
+    padding: 1em 0;
+}
+
+.text {
+
+}
+
+.read-more {
+    padding-top: 0.5em;
+    font-weight: 600;
+}
+
+.created-by {
+    padding-top: 1em;
+}

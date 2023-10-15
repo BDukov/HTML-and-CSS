@@ -1,0 +1,28 @@
+.statistic {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    /* background: yellow; */
+}
+
+.cont {
+    /* background: red; */
+    text-align: center;
+    padding: 2em 0;
+}
+
+.cont h1 {
+color: orange;
+padding-top: 0.5em;
+padding-bottom: 0.8em;
+}
+
+.cont h3 {
+    font-weight: 400;
+}
+
+.cont p {
+    font-weight: 200;
+    font-size: 0.8em;
+}
