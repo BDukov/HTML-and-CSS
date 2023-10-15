@@ -47,7 +47,25 @@
 }
 
 .button-learn-more {
-    margin-top: 1em;
+    margin-top: 2.5em;
+}
+
+#first > a {
+    text-decoration: none;
+    margin-top: 2em;
     border: 2px solid black;
-    padding: 1em 2em;
+    padding: 0.8em 1.5em;
+    color: white;
+    background: black;
+    border-radius: 0.3em;
+}
+
+#second > a {
+    text-decoration: none;
+    margin-top: 2em;
+    border: 2px solid black;
+    padding: 0.8em 1.5em;
+    color: black;
+    background: white;
+    border-radius: 0.3em;
 }
