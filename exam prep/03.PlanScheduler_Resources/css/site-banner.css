@@ -5,14 +5,14 @@
 
 .banner h1 {
     position: absolute;
-    top: 450px;
-    left: 260px;
+    top: 10em;
+    left: 5em;
 }
 
 .banner p {
     position: absolute;
-    top: 600px;
-    left: 260px;
+    top: 23em;
+    left: 8em;
     font-size: 1.2em;
     font-weight: 800;
     color: white;
@@ -20,8 +20,8 @@
 
 .banner a {
     position: absolute;
-    top:730px;
-    left:260px;
+    top:35em;
+    left:10em;;
     padding: 0.9em 1.8em;
     border: 2px solid black;
     background: black;
