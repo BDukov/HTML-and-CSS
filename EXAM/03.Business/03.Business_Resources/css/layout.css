@@ -1,0 +1,103 @@
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  padding: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/background.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
+.logo {
+  aspect-ratio: 1/1;
+  width: 6em;
+}
+
+.hero-banner .container {
+  min-height: 30em;
+  color: white;
+}
+
+.hero-banner .container h1:first-child {
+  margin-top: 1em;
+}
+.hero-banner .container h1 {
+  font-weight: 500;
+}
+.hero-banner .container p {
+  font-family: "PT Sans";
+  font-weight: 500;
+  margin-top: 1em;
+  width: 64ch;
+}
+
+.footer {
+  background: #171720;
+  color: white;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding: 2em 0;
+}
+
+.info article h3 {
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+.info article:last-child {
+  padding: 0 5em;
+}
+
+.info ul li {
+  display: block;
+  padding: 0.5em 0;
+}
+
+.info ul li a {
+  text-decoration: none;
+  color: #b3a6a8;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.rights p {
+  padding: 1em 0 2em 0;
+  color: #b3a6a8;
+}
+
+.line {
+  content: "";
+  border-bottom: 1px solid #b3a6a8;
+}

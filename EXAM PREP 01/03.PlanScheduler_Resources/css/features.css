@@ -1,0 +1,32 @@
+.features .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* gap: 1em; */
+}
+
+.features article {
+  flex: 1 1 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* align-self: center; */
+}
+
+.features p {
+  display: flex;
+  align-self: center;
+  font-size: 0.6em;
+}
+
+.features h1 {
+  padding-top: 2em;
+  padding-bottom: 0.8em;
+  font-size: 2em;
+  color: orange
+}
+
+.features {
+  margin-bottom: 2em;
+}

@@ -1,0 +1,49 @@
+.content .container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 3em;
+    gap: 1em;
+    background: #D9D9D9;
+}
+
+.content article {
+    border: 2px solid red;
+    display:flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.image {
+    display: block;
+    width: 55em;
+    height: auto;
+    overflow: hidden;
+    border: 2px solid red;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.enterprise {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #595959;
+}
+
+.content .read-more {
+    padding-top: 0.3em;
+    font-weight: 600;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text {
+    font-size: 0.8em;
+}

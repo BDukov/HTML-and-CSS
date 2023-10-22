@@ -1,0 +1,29 @@
+.plans {
+    background: #F5F5F5;
+}
+
+.plans .container {
+    background: #fff;
+    padding: 2em 3em;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    border: 2px solid red;
+}
+
+.plans-info {
+    flex-grow: 1;
+    border: 2px solid red;
+
+}
+
+.free {
+    flex-grow: 1;
+    border: 2px solid red;
+
+}
+
+.paid {
+    border: 2px solid red;
+
+}

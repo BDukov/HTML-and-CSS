@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+    .home-hero {
+        flex-direction: column-reverse;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+    }
+
+    .home-hero img {
+        width: 100%;
+    }
+
+    .home-cta-btn2 {
+        padding: 0.8em 1em;
+        align-self: center;
+    }
+
+    .home-cards-container{ 
+        flex-direction: column;
+    }
+
+    .home-features {
+        height: auto;
+        align-items: center;
+    }
+
+    .home-cards-container {
+        align-items: center;
+    }
+
+    .home-feature-card{
+        align-self: center;
+    }
+
+    .home-stars {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

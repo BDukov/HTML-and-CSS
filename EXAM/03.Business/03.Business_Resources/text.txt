@@ -1,0 +1,48 @@
+Home
+About
+Members
+News & Events
+
+About the
+Communication Company
+Business Association
+
+
+
+More information
+
+
+More information
+
+Sponsors
+
+Partners
+
+Address
+
+
+
+
+
+
+
+
+
+
+        <div class="sponsors">
+            <div class="container">
+                <article>
+                    <h3>Sponsors</h3>
+                    <p>Fusce vel eros ut lorem vehicula accumsan vel vitae leo. Nulla maximus elit orci, quis sagittis eros
+                        luctus ut. Duis in orci scelerisque odio blandit imperdiet. Praesent convallis lacus nec lorem
+                        pellentesque pretium.</p>
+                    <img src="/images/sponsor1.webp" alt="">
+                    <img src="./images/sponsor2.webp" alt="">
+                </article>
+
+                <article>
+                    <h3>Partners</h3>
+                    <p></p>
+                </article>
+            </div>
+        </div>
